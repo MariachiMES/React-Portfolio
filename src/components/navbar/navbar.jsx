@@ -15,9 +15,6 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
               <span id="email-address">davidoprodev@gmail.com</span>
             </i>
           </div>
-          <a href="#about-me">About Me</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#contact">Contact</a>
         </div>
         <div className="right">
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
