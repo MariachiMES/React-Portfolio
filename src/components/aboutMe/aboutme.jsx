@@ -13,8 +13,8 @@ export default function AboutMe() {
       </div>
       <div className="right">
         <div className="wrapper">
-          <h2>¡Hola!</h2>
-          <h1> my name is david ortiz.</h1>
+          <h2>Hi.</h2>
+          <h1> My name is David Ortiz.</h1>
           <h3>
             Web Developer
             <span></span>
