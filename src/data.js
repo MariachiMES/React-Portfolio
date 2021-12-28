@@ -9,24 +9,24 @@ export const featuredPortfolio = [
   {
     id: 2,
     title: "Toddler Budget App",
-    img: "/public/assets/EnzoApp.png",
+    img: "assets/EnzoApp.png",
   },
   {
     id: 3,
     title: "Fitness Tracker",
-    img: "./public/assets/fitnessTracker.png",
+    img: "assets/fitnessTracker.png",
   },
 ];
 export const webPortfolio = [
   {
     id: 1,
     title: "Toddler Budget App",
-    img: "/public/assets/EnzoApp.png",
+    img: "assets/EnzoApp.png",
   },
   {
     id: 2,
     title: "Note Taker",
-    img: "./public/assets/noteTaker.png",
+    img: "assets/noteTaker.png",
   },
   {
     id: 3,
