@@ -43,6 +43,10 @@
       display: flex;
       align-items: center;
       margin-left: 30px;
+
+      @include mobile {
+        display: none;
+      }
     }
     .envelope {
       font-size: 30px;
