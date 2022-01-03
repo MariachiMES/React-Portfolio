@@ -34,8 +34,8 @@
     flex-wrap: wrap;
 
     .item {
-      width: 220px;
-      height: 150px;
+      width: 430px;
+      height: 270px;
       border-radius: 20px;
       border: 1px solid lightgrey;
       margin: 10px 20px;
@@ -48,8 +48,24 @@
 
       h3 {
         position: absolute;
+        top: 15px;
         font-size: 20px;
         color: blue;
+      }
+      h2 {
+        position: absolute;
+        color: black;
+        bottom: 0px;
+        a {
+          color: black;
+        }
+        a:hover {
+          color: cyan;
+        }
+        i {
+          margin: 20px;
+          font-size: 40px;
+        }
       }
       img {
         width: 100%;

@@ -1,41 +1,26 @@
-export const featuredPortfolio = [
+export const fullStackPortfolio = [
   {
     id: 1,
     title: "UAC Tracker",
     img: "assets/uacTracker.png",
-    github: "https://github.com/MariachiMES/UACTracker3000",
-    deployed: "https://uac-tracker-3000.herokuapp.com/",
-  },
-  {
-    id: 2,
-    title: "Toddler Budget App",
-    img: "assets/EnzoApp.png",
-    github: "https://github.com/MariachiMES/EnzosAllowance",
-    deployed: "https://mariachimes.github.io/EnzosAllowance/",
-  },
-  {
-    id: 3,
-    title: "Fitness Tracker",
-    img: "assets/fitnessTracker.png",
-    github: "https://github.com/MariachiMES/FitnessTracker",
-    deployed:
-      "https://workout-tracker-3000.herokuapp.com/?id=61c3a073b8703000168d6230",
+    github: "https://github.com/MariachiMES/ReunificationFlow",
+    deployed: "https://reunification-flow.herokuapp.com/",
   },
 ];
-export const webPortfolio = [
+export const frontEndPortfolio = [
   {
     id: 1,
-    title: "Toddler Budget App",
+    title: "Toddler Budget Web App",
     img: "assets/EnzoApp.png",
     github: "https://github.com/MariachiMES/EnzosAllowance",
     deployed: "https://mariachimes.github.io/EnzosAllowance/",
   },
   {
     id: 2,
-    title: "Note Taker",
-    img: "assets/noteTaker.png",
-    github: "https://github.com/MariachiMES/NoteTaker",
-    deployed: "https://boot-camp-note-taker.herokuapp.com/",
+    title: "Parallax Portfolio",
+    img: "assets/portfolio.png",
+    github: "https://github.com/MariachiMES/Portfolio3.0",
+    deployed: "https://mariachimes.github.io/Portfolio3.0/",
   },
   {
     id: 3,
@@ -45,13 +30,13 @@ export const webPortfolio = [
     deployed: "",
   },
 ];
-export const mobilePortfolio = [
+export const backEndPortfolio = [
   {
     id: 1,
-    title: "Toddler Budget App",
+    title: "Node.js Employee Manager",
     img: "assets/EnzoApp.png",
-    github: "https://github.com/MariachiMES/EnzosAllowance",
-    deployed: "https://mariachimes.github.io/EnzosAllowance/",
+    github: "https://github.com/MariachiMES/EmployeeManager",
+    deployed: "https://watch.screencastify.com/v/sJLMOEj3Wbu61FTGmoR2",
   },
   {
     id: 2,
@@ -68,45 +53,28 @@ export const mobilePortfolio = [
     github: "https://github.com/MariachiMES/NoteTaker",
     deployed: "https://boot-camp-note-taker.herokuapp.com/",
   },
+  {
+    id: 4,
+    title: "Node.js Employee Profile Manager",
+    img: "assets/profileManager.png",
+    github: "https://github.com/MariachiMES/Team-Profile-Generator",
+    deployed: "https://watch.screencastify.com/v/fcyx36D7vncZJWRWlcAM",
+  },
 ];
-export const designPortfolio = [
+export const reactPortfolio = [
   {
     id: 1,
-    title: "Parallax Portfolio",
+    title: "React Portfolio",
     img: "assets/portfolio.png",
     github: "https://github.com/MariachiMES/Portfolio3.0",
     deployed: "https://mariachimes.github.io/Portfolio3.0/",
   },
-  {
-    id: 2,
-    title: "Vacation Itinerary",
-    img: "assets/itineraryPlanner.png",
-    github: "https://github.com/MariachiMES/VacationItinerary",
-    deployed: "https://mariachimes.github.io/VacationItinerary/",
-  },
-  {
-    id: 3,
-    title: "UAC Tracker",
-    img: "assets/uacTracker.png",
-    github: "https://github.com/MariachiMES/UACTracker3000",
-    deployed: "https://uac-tracker-3000.herokuapp.com/",
-  },
 ];
 
-export const contentPortfolio = [
+export const mernPortfolio = [
   {
     id: 1,
-    title: "rockPaperScissors",
-    img: "rockpaperScissors.png",
-  },
-  {
-    id: 2,
-    title: "rockPaperScissors",
-    img: "rockpaperScissors.png",
-  },
-  {
-    id: 3,
-    title: "rockPaperScissors",
+    title: "Coming Soon",
     img: "rockpaperScissors.png",
   },
 ];

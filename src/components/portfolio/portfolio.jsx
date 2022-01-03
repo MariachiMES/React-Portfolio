@@ -4,56 +4,56 @@ import { useEffect, useState } from "react";
 import "./portfolio.scss";
 import PortfolioList from "../portfolioList/portfolioList";
 import {
-  featuredPortfolio,
-  webPortfolio,
-  mobilePortfolio,
-  contentPortfolio,
-  designPortfolio,
+  fullStackPortfolio,
+  frontEndPortfolio,
+  backEndPortfolio,
+  reactPortfolio,
+  mernPortfolio,
 } from "../../data";
 
 export default function Portfolio() {
-  const [selected, setSelected] = useState("featured");
+  const [selected, setSelected] = useState("fullStack");
   const [data, setData] = useState([]);
 
   const list = [
     {
-      id: "featured",
-      title: "Featured",
+      id: "fullStack",
+      title: "Full-Stack",
     },
     {
-      id: "web",
-      title: "Web App",
+      id: "frontEnd",
+      title: "Front-End",
     },
     {
-      id: "mobile",
-      title: "Mobile App",
+      id: "backEnd",
+      title: "Back-End",
     },
     {
-      id: "design",
-      title: "Design",
+      id: "react",
+      title: "React",
     },
     {
-      id: "content",
-      title: "Content",
+      id: "mern",
+      title: "MERN",
     },
   ];
 
   useEffect(() => {
     switch (selected) {
-      case "featured":
-        setData(featuredPortfolio);
+      case "fullStack":
+        setData(fullStackPortfolio);
         break;
-      case "web":
-        setData(webPortfolio);
+      case "frontEnd":
+        setData(frontEndPortfolio);
         break;
-      case "mobile":
-        setData(mobilePortfolio);
+      case "backEnd":
+        setData(backEndPortfolio);
         break;
-      case "design":
-        setData(designPortfolio);
+      case "react":
+        setData(reactPortfolio);
         break;
-      case "content":
-        setData(contentPortfolio);
+      case "mern":
+        setData(mernPortfolio);
         break;
     }
   }, [selected]);
@@ -77,12 +77,10 @@ export default function Portfolio() {
             <h3>{d.title}</h3>
             <h2>
               <a href={d.github} target="_blank">
-                code
+                <i class="fab fa-github"></i>
               </a>
-            </h2>
-            <h2>
               <a href={d.deployed} target="_blank">
-                link
+                <i class="fas fa-link"></i>
               </a>
             </h2>
           </div>
