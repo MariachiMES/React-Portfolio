@@ -37,6 +37,10 @@
       display: flex;
       align-items: center;
       margin-right: 40px;
+
+      @include mobile {
+        font-size: 25px;
+      }
     }
     .itemContainer {
       display: flex;
