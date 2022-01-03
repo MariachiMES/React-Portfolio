@@ -27,9 +27,6 @@ export default function AboutMe() {
             <span ref={textRef}></span>
             <span></span>
           </h3>
-          <div className="down-arrow">
-            <i class="fas fa-chevron-down"></i>
-          </div>
         </div>
       </div>
     </div>
