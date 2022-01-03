@@ -6,7 +6,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="porfolio" className="logo">
-            David José Ortiz
+            David Ortiz
           </a>
           <div className="itemContainer">
             <i class="fas fa-phone" id="phone"></i>
