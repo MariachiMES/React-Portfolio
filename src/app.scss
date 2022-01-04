@@ -1,7 +1,6 @@
 .app {
   height: 100vh;
   scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
 
   .sections {
     width: 100%;
@@ -10,7 +9,6 @@
     position: relative;
     top: 70px;
     scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
     scrollbar-width: none;
     &::-webkit-scrollbar {
       display: none;
