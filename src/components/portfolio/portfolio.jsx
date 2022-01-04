@@ -8,7 +8,6 @@ import {
   frontEndPortfolio,
   backEndPortfolio,
   reactPortfolio,
-  mernPortfolio,
 } from "../../data";
 
 export default function Portfolio() {
@@ -32,10 +31,6 @@ export default function Portfolio() {
       id: "react",
       title: "React",
     },
-    {
-      id: "mern",
-      title: "MERN",
-    },
   ];
 
   useEffect(() => {
@@ -51,9 +46,6 @@ export default function Portfolio() {
         break;
       case "react":
         setData(reactPortfolio);
-        break;
-      case "mern":
-        setData(mernPortfolio);
         break;
     }
   }, [selected]);

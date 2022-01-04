@@ -25,9 +25,9 @@ export const frontEndPortfolio = [
   {
     id: 3,
     title: "rockPaperScissors",
-    img: "assets/rockpaperScissors.png",
-    github: "",
-    deployed: "",
+    img: "assets/RockPaperScissors.jpeg",
+    github: "https://github.com/MariachiMES/RockPaperScissorsGame",
+    deployed: "https://mariachimes.github.io/RockPaperScissorsGame/",
   },
 ];
 export const backEndPortfolio = [
