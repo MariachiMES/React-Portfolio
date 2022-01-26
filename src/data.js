@@ -29,6 +29,13 @@ export const frontEndPortfolio = [
     github: "https://github.com/MariachiMES/RockPaperScissorsGame",
     deployed: "https://mariachimes.github.io/RockPaperScissorsGame/",
   },
+  {
+    id: 4,
+    title: "La Segunda",
+    img: "assets/LaSegunda.png",
+    github: "https://github.com/MariachiMES/la-segunda/",
+    deployed: "https://mariachimes.github.io/la-segunda/",
+  },
 ];
 export const backEndPortfolio = [
   {
