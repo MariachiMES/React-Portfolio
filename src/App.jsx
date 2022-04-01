@@ -2,6 +2,7 @@ import Navbar from "./components/navbar/navbar";
 import AboutMe from "./components/aboutMe/aboutme";
 import Portfolio from "./components/portfolio/portfolio";
 import Contact from "./components/contact/contact";
+import Cards from "./components/projects/projectcards";
 import "./app.scss";
 import { useState } from "react";
 import Menu from "./components/menu/menu";
@@ -14,6 +15,7 @@ function App() {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
         <AboutMe />
+        <Cards />
         <Portfolio />
         <Contact />
       </div>

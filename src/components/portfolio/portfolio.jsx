@@ -1,8 +1,9 @@
-import { ListItemAvatar } from "@material-ui/core";
-import { getByTitle } from "@testing-library/react";
+// import { ListItemAvatar } from "@material-ui/core";
+// import { getByTitle } from "@testing-library/react";
 import { useEffect, useState } from "react";
 import "./portfolio.scss";
 import PortfolioList from "../portfolioList/portfolioList";
+
 import {
   fullStackPortfolio,
   frontEndPortfolio,
@@ -66,11 +67,14 @@ export default function Portfolio() {
         {data.map((d) => (
           <div className="item">
             <img src={d.img} alt="" />
+
             <h3>{d.title}</h3>
+
             <h2>
               <a href={d.github} target="_blank">
                 <i class="fab fa-github"></i>
               </a>
+
               <a href={d.deployed} target="_blank">
                 <i class="fas fa-link"></i>
               </a>
