@@ -3,8 +3,8 @@ export const fullStackPortfolio = [
     id: 1,
     title: "Reunify",
     img: "assets/uacTracker.png",
-    github: "https://github.com/MariachiMES/ReunificationFlow",
-    deployed: "https://reunification-flow.herokuapp.com/",
+    github: "https://github.com/MariachiMES/UACTracker3000",
+    deployed: "https://uac-tracker-3000.herokuapp.com/",
     video: "",
     description: `Reunify is a full-stack web application written to aid in the organization 
     of data for processing Unacompanied Minors entering the southerin border, 
