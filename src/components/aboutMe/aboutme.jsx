@@ -15,7 +15,10 @@ export default function AboutMe() {
     <div className="about-me" id="about-me">
       <div className="left">
         <div className="image-container">
-          <img src="assets/AboutMeCropped.png" alt="David Ortiz"></img>
+          <img
+            src={require("../../images/AboutMeCropped.png")}
+            alt="David Ortiz"
+          ></img>
         </div>
       </div>
       <div className="right">

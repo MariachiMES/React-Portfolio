@@ -1,5 +1,6 @@
 import React from "react";
 import "./projectcards.scss";
+import ReactPlayer from "react-player";
 
 export default function Cards() {
   return (
@@ -9,15 +10,11 @@ export default function Cards() {
         <div className="row">
           <div className="col">
             <div className="feature-img">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/9QIkrHGUaRg"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+              <ReactPlayer
+                className="reunify"
+                url={require("../../video/ReunifyUpdated.mov")}
+                controls="true"
+              />
             </div>
           </div>
           <div className="col">
